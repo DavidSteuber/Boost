@@ -11,8 +11,9 @@
 		63290D551AB159B00084D212 /* Boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63290D491AB159B00084D212 /* Boost.framework */; };
 		63290D5C1AB159B00084D212 /* BoostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63290D5B1AB159B00084D212 /* BoostTests.m */; };
 		63290D681AB15B660084D212 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63290D671AB15B660084D212 /* License.txt */; };
-		6329112C1AB18B880084D212 /* boost in Resources */ = {isa = PBXBuildFile; fileRef = 6329112B1AB18B880084D212 /* boost */; };
 		6329112E1AB18BBD0084D212 /* libs in Resources */ = {isa = PBXBuildFile; fileRef = 6329112D1AB18BBC0084D212 /* libs */; };
+		632911301AB1A6770084D212 /* tests in Resources */ = {isa = PBXBuildFile; fileRef = 6329112F1AB1A6770084D212 /* tests */; };
+		63AC78131AB1AB4400BDA973 /* boost-headers in Resources */ = {isa = PBXBuildFile; fileRef = 63AC78121AB1AB4400BDA973 /* boost-headers */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +34,9 @@
 		63290D5A1AB159B00084D212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63290D5B1AB159B00084D212 /* BoostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoostTests.m; sourceTree = "<group>"; };
 		63290D671AB15B660084D212 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
-		6329112B1AB18B880084D212 /* boost */ = {isa = PBXFileReference; lastKnownFileType = folder; path = boost; sourceTree = "<group>"; };
 		6329112D1AB18BBC0084D212 /* libs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libs; sourceTree = "<group>"; };
+		6329112F1AB1A6770084D212 /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tests; sourceTree = "<group>"; };
+		63AC78121AB1AB4400BDA973 /* boost-headers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "boost-headers"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,8 @@
 		63290D4B1AB159B00084D212 /* Boost */ = {
 			isa = PBXGroup;
 			children = (
+				63AC78121AB1AB4400BDA973 /* boost-headers */,
 				6329112D1AB18BBC0084D212 /* libs */,
-				6329112B1AB18B880084D212 /* boost */,
 				63290D4E1AB159B00084D212 /* Boost.h */,
 				63290D4C1AB159B00084D212 /* Supporting Files */,
 			);
@@ -97,6 +99,7 @@
 		63290D581AB159B00084D212 /* BoostTests */ = {
 			isa = PBXGroup;
 			children = (
+				6329112F1AB1A6770084D212 /* tests */,
 				63290D5B1AB159B00084D212 /* BoostTests.m */,
 				63290D591AB159B00084D212 /* Supporting Files */,
 			);
@@ -202,7 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6329112E1AB18BBD0084D212 /* libs in Resources */,
-				6329112C1AB18B880084D212 /* boost in Resources */,
+				63AC78131AB1AB4400BDA973 /* boost-headers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				632911301AB1A6770084D212 /* tests in Resources */,
 				63290D681AB15B660084D212 /* License.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +419,7 @@
 				63290D611AB159B00084D212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63290D621AB159B00084D212 /* Build configuration list for PBXNativeTarget "BoostTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				63290D641AB159B00084D212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

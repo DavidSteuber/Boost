@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8A02347F-9F68-4191-949F-1D878B8C3E0E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Boost</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>76F8A9CDBAC9D72308CA43F85BE98440B8A9541F</key>
+		<string>https://github.com/DavidSteuber/Boost.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Boost.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>76F8A9CDBAC9D72308CA43F85BE98440B8A9541F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/DavidSteuber/Boost.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>76F8A9CDBAC9D72308CA43F85BE98440B8A9541F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>76F8A9CDBAC9D72308CA43F85BE98440B8A9541F</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>76F8A9CDBAC9D72308CA43F85BE98440B8A9541F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Boost</string>
+		</dict>
+	</array>
+</dict>
+</plist>
